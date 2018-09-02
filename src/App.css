@@ -1,0 +1,63 @@
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.App-header a {
+  color: white;
+  text-decoration: none;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+main {
+  width: 90%;
+  margin: 1rem suto;
+}
+
+.post-listing {
+  list-style: none;
+  padding: 0;
+  margin: 2rem auto;
+}
+
+.post-listing li {
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+}
+
+.button {
+  text-decoration: none;
+  background: #222;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+input {
+  font-size: 1.6rem;
+}
+
+textarea {
+  font-size: 1.2rem;
+  height: 50vh;
+}
